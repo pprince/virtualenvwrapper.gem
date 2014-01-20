@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='virtualenvwrapper.gem',
-    version='0.1',
+    version='0.2',
     description='Plugin for virtualenvwrapper to automatically '
                 'encapsulate inside the virtual environment'
                 'any gems installed when the venv is activated',
