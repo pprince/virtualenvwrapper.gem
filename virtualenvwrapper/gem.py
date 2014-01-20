@@ -24,7 +24,7 @@ export GEM_PATH=""
 
 def pre_deactivate_source(args):
     return  """
-#restore the value before entering the venv
+#restore the value before exiting the venv
 
 if [ -n "${_OLD_GEM_HOME+1}" ]; then
     GEM_HOME="$_OLD_GEM_HOME"
